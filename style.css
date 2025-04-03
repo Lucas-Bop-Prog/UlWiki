@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+}
+
+nav{
+    background-color: #1A1A1A; 
+    display: block;
+    padding: 25px;
+    margin: auto;
+    display: block;
+    font-size: 32px;
+}
+
+.logo {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+}
+
+.searchInput{
+    position: relative;
+    background-color: #232323;
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: 10px 10px;
+    border: 0px solid #555;
+    border-radius: 20px;
+    width: 900px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "karla", Arial, Helvetica, sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.searchInputB{
+    position: relative;
+    background-color: #232323;
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: 10px 10px;
+    border: 0px solid #555;
+    border-radius: 20px;
+    width: 900px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "karla", Arial, Helvetica, sans-serif;
+    transform: translateX(-50%);
+    left: 30%;
+}
+
+
+.YT{
+    position: absolute;
+    top: 750px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.YT h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.YT a img{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90px
+}
+
+.d-title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.dtitle{
+    position: absolute;
+    font-family: "karla", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 80px;
+    top: 200px;
+    transform: translateX(-50%);
+    left: 90%;
+    width: 100%;
+}
+
+.d{
+    position: absolute;
+    font-family: "karla", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    top: 350px;
+    transform: translateX(-50%);
+    left: 65%;
+    text-align: center;
+    width: 850px; /* Ancho */
+    height: auto
+}
+
+.dimg1{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 15%;
+    transform: translateX(-50%);
+    top: 350px;
+}
+
+.A{
+    position:absolute;
+    background-color: #1A1A1A; 
+    font-size: 32px;
+    font-family: "karla", Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    padding: 25px;
+    margin: auto;
+    display: block;
+    font-size: 32px;
+    top: 150%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.b{
+    position: absolute;
+    height: 64px;
+    width: auto;
+    top: 4%;
+    left: 80%;
+}
